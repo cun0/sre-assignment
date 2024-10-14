@@ -49,6 +49,3 @@ Set up the following alerts:
 * Add your code, configurations, and documents to the repository.
 * Provide a link to the repository or submit your deliverables as a ZIP file.
 
-## Time Expectation
-
-~3 hours
