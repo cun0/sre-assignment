@@ -1,0 +1,33 @@
+{
+  "dashboard": {
+    "id": null,
+    "uid": "example-dashboard",
+    "title": "Example Dashboard",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "HTTP Requests",
+        "targets": [
+          {
+            "expr": "rate(http_requests_total[1m])",
+            "legendFormat": "{{status}}",
+            "refId": "A"
+          }
+        ],
+        "xaxis": {
+          "mode": "time"
+        },
+        "yaxis": {
+          "format": "short",
+          "label": "Requests per second"
+        }
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    }
+  },
+  "overwrite": true
+}
+
